@@ -17,8 +17,7 @@ def normalize(arr)
 end
 
 def format_elem(elem)
-  { elem[:id] => { primary: elem[:primary]}}
+  { elem[:id] => { primary: elem[:primary] } }
 end
 
-selected = select(arr)
-p normalize(selected)
+p normalize(select(arr))

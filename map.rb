@@ -14,5 +14,4 @@ def roles(arr)
   { 'roles' => elements(arr, 'recipe') }
 end
 
-
 p h = {}.merge(recipes(arr)).merge(roles(arr))

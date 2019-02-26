@@ -13,4 +13,5 @@ end
 def format_elem(elem)
   "#{elem[:id]}/vm/none"
 end
+
 p select arr
